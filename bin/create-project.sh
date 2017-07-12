@@ -13,17 +13,17 @@ if [ "$#" -lt 1 ]; then
 fi
 
 
-rm -rf -- "$CODE_DIR"
-mkdir -p "$CODE_DIR"
+#rm -rf -- "$CODE_DIR"
+#mkdir -p "$CODE_DIR"
 
 case "$1" in
     ###################################
     ## TYPO3 CMS
     ###################################
     "typo3")
-        execInDir "$CODE_DIR" "docker run --rm --env COMPOSER_CACHE_DIR=/tmp --user $(id -u):$(id -g) -v \$(pwd):/app composer/composer:alpine create-project typo3/cms-base-distribution /app"
-        execInDir "$CODE_DIR" "chmod +x typo3cms"
+        #execInDir "$CODE_DIR" "docker run --rm --env COMPOSER_CACHE_DIR=/tmp --user $(id -u):$(id -g) -v \$(pwd):/app composer/composer:alpine create-project typo3/cms-base-distribution /app"
         execInDir "$CODE_DIR" "ln -s vendor/bin/typo3cms"
+        execInDir "$CODE_DIR" "chmod +x typo3cms"
         execInDir "$CODE_DIR" "docker run --rm --user $(id -u):$(id -g) --net=t3docker_default --link t3docker_mysql_1:mysql -v \$(pwd):/app t3docker_app /bin/bash -c '\
         ./typo3cms install:setup --non-interactive \
         --database-user-name=dev \
@@ -57,7 +57,13 @@ case "$1" in
         ./typo3cms extension:activate reports; \
         ./typo3cms extension:activate opendocs; \
         ./typo3cms extension:activate setup; \
-        ./typo3cms extension:activate lowlevel'"
+        ./typo3cms extension:activate lowlevel; \
+        cp vendor/typo3/cms/_.htaccess web/.htaccess; \
+        ./typo3cms autocomplete; \
+        ./typo3cms database:updateschema "*.*"; \
+        ./typo3cms cleanup:updatereferenceindex; \
+        ./typo3cms cache:flush; \
+        echo "8x ready"'"
         ;;
 
     ###################################
