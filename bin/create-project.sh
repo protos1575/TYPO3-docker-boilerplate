@@ -13,8 +13,8 @@ if [ "$#" -lt 1 ]; then
 fi
 
 
-#rm -rf -- "$CODE_DIR"
-#mkdir -p "$CODE_DIR"
+rm -rf -- "$CODE_DIR"
+mkdir -p "$CODE_DIR"
 
 case "$1" in
     ###################################
