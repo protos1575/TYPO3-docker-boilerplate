@@ -16,6 +16,8 @@ fi
 rm -rf -- "$CODE_DIR"
 mkdir -p "$CODE_DIR"
 
+
+
 case "$1" in
     ###################################
     ## TYPO3 CMS
@@ -24,7 +26,7 @@ case "$1" in
         execInDir "$CODE_DIR" "docker run --rm --env COMPOSER_CACHE_DIR=/tmp --user $(id -u):$(id -g) -v \$(pwd):/app composer/composer:alpine create-project typo3/cms-base-distribution /app"
         execInDir "$CODE_DIR" "ln -s vendor/bin/typo3cms"
         execInDir "$CODE_DIR" "chmod +x typo3cms"
-        execInDir "$CODE_DIR" "docker run --rm --user $(id -u):$(id -g) --net=$(basename "$PWD")_default --link $(basename "$PWD")_mysql_1:mysql -v \$(pwd):/app $(basename "$PWD")_app /bin/bash -c '\
+        execInDir "$CODE_DIR" "docker run --rm --user $(id -u):$(id -g) --net=$(toLowerRemoveSpecial $(basename "$PWD"))_default --link $(toLowerRemoveSpecial $(basename "$PWD"))_mysql_1:mysql -v \$(pwd):/app $(toLowerRemoveSpecial $(basename "$PWD"))_app /bin/bash -c '\
         ./typo3cms install:setup --non-interactive \
         --database-user-name=dev \
         --database-user-password=dev \

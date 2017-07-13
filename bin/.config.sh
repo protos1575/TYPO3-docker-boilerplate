@@ -75,3 +75,7 @@ dockerCopyTo() {
     PATH_DOCKER="$2"
     docker cp "${PATH_HOST}" "$(docker-compose ps -q app):${PATH_DOCKER}"
 }
+
+toLowerRemoveSpecial() {
+    echo "$1" | awk '{print tolower($0)}' | sed  -e 's/[^a-zA-Z0-9]/ /g;s/  *//g'
+}
