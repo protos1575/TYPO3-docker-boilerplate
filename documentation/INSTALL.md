@@ -27,5 +27,5 @@ cd projectname
 # copy favorite docker-compose.*.yml to docker-compose.yml
 cp docker-compose.development.yml docker-compose.yml
 
-docker-compose up -d
+docker-compose up -d or make up
 ```
