@@ -20,7 +20,7 @@ For more convenience use [CliTools.phar](https://github.com/webdevops/clitools) 
 ## First startup
 
 ```bash
-git clone --recursive https://github.com/webdevops/TYPO3-docker-boilerplate.git projectname
+git clone --recursive https://github.com/protos1575/TYPO3-docker-boilerplate.git projectname
 
 cd projectname
 
