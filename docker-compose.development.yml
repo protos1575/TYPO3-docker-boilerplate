@@ -21,8 +21,8 @@ services:
       - "443:443"
       - "22:22"
     volumes:
-      - ./app/:/app/
-      - ./:/docker/
+      - ./app/:/app/:cached
+      - ./:/docker/:cached
     volumes_from:
       - storage
     # cap and privileged needed for slowlog
