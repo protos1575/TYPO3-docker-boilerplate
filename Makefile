@@ -32,7 +32,7 @@ rebuild:
 	docker-compose pull
 	docker-compose rm --force app
 	docker-compose build --no-cache --pull
-	docker-compose up -d --force-recreate
+	docker-compose up -d --force-recreate --remove-orphans
 
 #############################
 # MySQL
@@ -43,6 +43,9 @@ mysql-backup:
 
 mysql-restore:
 	bash ./bin/restore.sh mysql
+
+mysql-repair:
+	bash ./bin/mysql_repair.sh
 
 #############################
 # Solr
