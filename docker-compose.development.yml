@@ -53,7 +53,7 @@ services:
       #dockerfile: Percona-5.6.Dockerfile
       #dockerfile: Percona-5.7.Dockerfile
     ports:
-      - 13306:3306
+      - 3306:3306
     volumes_from:
       - storage
     env_file:
