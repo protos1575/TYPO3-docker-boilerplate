@@ -61,5 +61,9 @@ RUN ln -sf /opt/docker/etc/cron/crontab /etc/cron.d/docker-boilerplate \
     && echo >> /opt/docker/etc/cron/crontab \
     && ln -sf /opt/docker/etc/php/development.ini /opt/docker/etc/php/php.ini
 
+#set passwords
+RUN echo "application:dev" | chpasswd \
+    && echo "root:dev" | chpasswd
+
 # Configure volume/workdir
 WORKDIR /app/
