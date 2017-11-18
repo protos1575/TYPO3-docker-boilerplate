@@ -178,7 +178,7 @@ services:
       - VIRTUAL_HOST=pma.boilerplate.docker
       - VIRTUAL_PORT=80
     volumes:
-      - /sessions
+      - phpmyadmin:/sessions
 
 volumes:
   mysql:

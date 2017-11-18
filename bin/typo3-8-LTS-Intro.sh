@@ -13,7 +13,7 @@ echo '
     },
     "require": {
         "typo3/cms": "^8.7",
-        "helhum/typo3-console": "^4.8",
+        "helhum/typo3-console": "^4.9",
         "typo3-ter/introduction": "^3.0",
         "typo3-ter/realurl": "^2.2"
     },
@@ -29,7 +29,7 @@ echo '
 }
 ' > composer.json
 
-composer install -o --no-interaction
+composer install -o --no-interaction --no-dev
 
 ## for typo3-console
 chmod +x bin/*
@@ -37,6 +37,7 @@ cp vendor/typo3/cms/_.htaccess web/.htaccess
 
 bin/typo3cms install:setup \
     --non-interactive \
+    --skip-extension-setup \
     --force \
     --use-existing-database \
     --database-user-name="dev" \
@@ -48,21 +49,18 @@ bin/typo3cms install:setup \
     --admin-password="admin123" \
     --site-name="TYPO3 LTS"
 
+bin/typo3cms extension:activate rte_ckeditor
 bin/typo3cms extension:activate bootstrap_package
 bin/typo3cms extension:activate introduction
 bin/typo3cms extension:activate realurl
 
-bin/typo3cms install:generatepackagestates --activate-default=true
 bin/typo3cms install:fixfolderstructure
-bin/typo3cms install:extensionsetupifpossible
+bin/typo3cms install:generatepackagestates --activate-default=true
 
 bin/typo3cms autocomplete
 
 bin/typo3cms database:updateschema '*.*'
 bin/typo3cms cleanup:updatereferenceindex
 bin/typo3cms cache:flush
-
-
-
 
 echo "typo3 ready"
