@@ -53,7 +53,7 @@ services:
     ports:
       - 13306:3306
     volumes:
-      - mysql:/var/lib/mysql
+      - ./app_db/:/var/lib/mysql
     env_file:
       - etc/environment.yml
       - etc/environment.development.yml
