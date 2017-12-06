@@ -3,5 +3,6 @@
 backup/*
 bin/*
 app/*
+app_db/*
 docker/*
 documentation/*
