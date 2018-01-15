@@ -17,12 +17,12 @@ services:
       #- memcached
       #- ftp
     ports:
-      - "8000:80"
-      - "8443:443"
+      - "80:80"
+      - "443:443"
       - "10022:22"
     volumes:
       - ./app/:/app/:cached
-      - ./:/docker/:cached
+      - ./:/docker/
     # cap and privileged needed for slowlog
     cap_add:
       - SYS_PTRACE
@@ -53,7 +53,7 @@ services:
     ports:
       - 13306:3306
     volumes:
-      - ./app_db/:/var/lib/mysql
+      - ./app_db/:/var/lib/mysql:delegated
     env_file:
       - etc/environment.yml
       - etc/environment.development.yml
