@@ -1,6 +1,6 @@
 .DS_Store
 .idea
-nbproject
-/backup/*
 /app/*
+/app_db/*
+/backup/*
 /docker-compose.yml
