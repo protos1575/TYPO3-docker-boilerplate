@@ -17,16 +17,15 @@ services:
       #- memcached
       #- ftp
     ports:
-      - "80:80"
-      - "443:443"
+      - "8000:80"
+      - "8443:443"
       - "10022:22"
     volumes:
-      - ./app/:/app/:cached
+      - ./app/:/app:cached
       - ./:/docker/
     # cap and privileged needed for slowlog
     cap_add:
       - SYS_PTRACE
-    privileged: true
     env_file:
       - etc/environment.yml
       - etc/environment.development.yml
@@ -43,8 +42,8 @@ services:
     build:
       context: docker/mysql/
       #dockerfile: MySQL-5.5.Dockerfile
-#      dockerfile: MySQL-5.6.Dockerfile
-      dockerfile: MySQL-5.7.Dockerfile
+      dockerfile: MySQL-5.6.Dockerfile
+#      dockerfile: MySQL-5.7.Dockerfile
       #dockerfile: MariaDB-5.5.Dockerfile
       #dockerfile: MariaDB-10.Dockerfile
       #dockerfile: Percona-5.5.Dockerfile
@@ -82,6 +81,8 @@ services:
   #  image: webdevops/typo3-solr:5.0
   #  image: webdevops/typo3-solr:4.0
   #  image: webdevops/typo3-solr:3.1
+  #  ports:
+  #    - 18983:8983
   #  volumes:
   #    - solr:/opt/solr/server/solr/data
   #  env_file:
@@ -101,7 +102,7 @@ services:
   #    - 19998:9998
 
   #######################################
-  # Elasticsearch
+  # Elasticsearch 5.6.6 Kibana
   #######################################
   #elasticsearch:
   #  build:

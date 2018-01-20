@@ -22,7 +22,7 @@ services:
       - "10022:22"
     restart: always
     volumes:
-      - ./app/:/app/
+      - ./app/:/app:cached
     env_file:
       - etc/environment.yml
       - etc/environment.production.yml
@@ -42,8 +42,10 @@ services:
       #dockerfile: Percona-5.6.Dockerfile
       #dockerfile: Percona-5.7.Dockerfile
     restart: always
+    ports:
+      - 13306:3306
     volumes:
-      - mysql:/var/lib/mysql
+      - ./app_db/:/var/lib/mysql:delegated
     env_file:
       - etc/environment.yml
       - etc/environment.production.yml
@@ -85,7 +87,7 @@ services:
   #    - etc/environment.production.yml
 
   #######################################
-  # Elasticsearch
+  # Elasticsearch 5.6.6 Kibana
   #######################################
   #elasticsearch:
   #  build:
