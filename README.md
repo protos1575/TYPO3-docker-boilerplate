@@ -62,3 +62,13 @@ Thanks for your support, ideas and issues.
 Thanks to [cron IT GmbH](http://www.cron.eu/) for inspiration.
 
 Did I forget anyone? Send me a tweet or create pull request!
+
+# Docker sync
+```bash
+docker-sync-stack clean
+```
+```bash
+docker-sync-stack start
+```
+
+Read: https://github.com/EugenMayer/docker-sync/wiki
