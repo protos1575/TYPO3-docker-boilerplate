@@ -1,1 +1,1 @@
-<?php phpinfo();
+typo3_src/index.php

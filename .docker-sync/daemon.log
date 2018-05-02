@@ -1,0 +1,167 @@
+          ok  Starting unison for sync appcode-rsync-sync
+          ok  appcode-rsync-sync container still running, restarting unison in container
+          ok  Synced /Users/carlos/Projekte/matthies/kundenwebseitenauto/TYPO3-docker-boilerplate/app/
+     success  Unison server started
+          ok  Synced /Users/carlos/Projekte/matthies/kundenwebseitenauto/TYPO3-docker-boilerplate/app/
+Unison 2.51.2 (ocaml 4.06.1): Contacting server...
+Connected [//50abb2cd1093//app_sync -> //Carloss-MBP-2.l.davitec.de//Users/carlos/Projekte/matthies/kundenwebseitenauto/TYPO3-docker-boilerplate/app]
+Looking for changes
+  Waiting for changes from server
+Reconciling changes
+Nothing to do: replicas have not changed since last sync.
+Looking for changes
+  Waiting for changes from server
+Reconciling changes
+Propagating updates
+UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 16:03:30.56 on 02 May 2018
+[BGN] Updating file web/typo3temp/Cache/Code/fluid_template/Standalone_template_file_Main_610d4bf98071dcb17bf0d47a6f17e19498fc5295.php from /Users/carlos/Projekte/matthies/kundenwebseitenauto/TYPO3-docker-boilerplate/app to //50abb2cd1093//app_sync
+[BGN] Updating file web/typo3temp/Cache/Code/fluid_template/Standalone_template_file_SystemInformation_0f31ab15ecc85d37419f74890daf4f5183b8e2c9.php from /Users/carlos/Projekte/matthies/kundenwebseitenauto/TYPO3-docker-boilerplate/app to //50abb2cd1093//app_sync
+[END] Updating file web/typo3temp/Cache/Code/fluid_template/Standalone_template_file_Main_610d4bf98071dcb17bf0d47a6f17e19498fc5295.php
+[END] Updating file web/typo3temp/Cache/Code/fluid_template/Standalone_template_file_SystemInformation_0f31ab15ecc85d37419f74890daf4f5183b8e2c9.php
+UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 16:03:30.57 on 02 May 2018
+Saving synchronizer state
+Synchronization complete at 16:03:30  (2 items transferred, 0 skipped, 0 failed)
+Looking for changes
+  Waiting for changes from server
+Reconciling changes
+Nothing to do: replicas have not changed since last sync.
+Looking for changes
+  Waiting for changes from server
+Reconciling changes
+Propagating updates
+UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 16:03:32.68 on 02 May 2018
+[BGN] Updating file web/typo3temp/Cache/Code/fluid_template/Standalone_template_file_Main_568c7fb5aea40dd37d041a6fa0c771f3e79a82d4.php from /Users/carlos/Projekte/matthies/kundenwebseitenauto/TYPO3-docker-boilerplate/app to //50abb2cd1093//app_sync
+[END] Updating file web/typo3temp/Cache/Code/fluid_template/Standalone_template_file_Main_568c7fb5aea40dd37d041a6fa0c771f3e79a82d4.php
+UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 16:03:32.68 on 02 May 2018
+Saving synchronizer state
+Synchronization complete at 16:03:32  (1 item transferred, 0 skipped, 0 failed)
+Looking for changes
+  Waiting for changes from server
+Reconciling changes
+Nothing to do: replicas have not changed since last sync.
+Looking for changes
+  Waiting for changes from server
+Reconciling changes
+Propagating updates
+UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 16:04:10.14 on 02 May 2018
+[BGN] Updating file web/typo3temp/Cache/Code/fluid_template/Standalone_partial_ButtonBar_1d0fa24a93a50cbadbdb66851e8dc9b30d5982b7.php from /Users/carlos/Projekte/matthies/kundenwebseitenauto/TYPO3-docker-boilerplate/app to //50abb2cd1093//app_sync
+[BGN] Updating file web/typo3temp/Cache/Code/fluid_template/Standalone_partial_DocHeader_aa26df3319d346e232f588642d8f97947b3b72d2.php from /Users/carlos/Projekte/matthies/kundenwebseitenauto/TYPO3-docker-boilerplate/app to //50abb2cd1093//app_sync
+[BGN] Updating file web/typo3temp/Cache/Code/fluid_template/Standalone_partial_Menus_SelectBoxJumpMenu_61926dd40c57c35853f1f5d64ccbe53136c01ac7.php from /Users/carlos/Projekte/matthies/kundenwebseitenauto/TYPO3-docker-boilerplate/app to //50abb2cd1093//app_sync
+[BGN] Updating file web/typo3temp/Cache/Code/fluid_template/Standalone_template_file_InfoBox_16d77e3d0a518f93d680321950cab20ef259a795.php from /Users/carlos/Projekte/matthies/kundenwebseitenauto/TYPO3-docker-boilerplate/app to //50abb2cd1093//app_sync
+[BGN] Updating file web/typo3temp/Cache/Code/fluid_template/Standalone_template_file_Module_43a3f165a5692ce8fa0861573d47dc2a1188783e.php from /Users/carlos/Projekte/matthies/kundenwebseitenauto/TYPO3-docker-boilerplate/app to //50abb2cd1093//app_sync
+[END] Updating file web/typo3temp/Cache/Code/fluid_template/Standalone_partial_ButtonBar_1d0fa24a93a50cbadbdb66851e8dc9b30d5982b7.php
+[END] Updating file web/typo3temp/Cache/Code/fluid_template/Standalone_partial_DocHeader_aa26df3319d346e232f588642d8f97947b3b72d2.php
+[END] Updating file web/typo3temp/Cache/Code/fluid_template/Standalone_partial_Menus_SelectBoxJumpMenu_61926dd40c57c35853f1f5d64ccbe53136c01ac7.php
+[END] Updating file web/typo3temp/Cache/Code/fluid_template/Standalone_template_file_InfoBox_16d77e3d0a518f93d680321950cab20ef259a795.php
+[END] Updating file web/typo3temp/Cache/Code/fluid_template/Standalone_template_file_Module_43a3f165a5692ce8fa0861573d47dc2a1188783e.php
+UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 16:04:10.15 on 02 May 2018
+Saving synchronizer state
+Synchronization complete at 16:04:10  (5 items transferred, 0 skipped, 0 failed)
+Looking for changes
+  Waiting for changes from server
+Reconciling changes
+Nothing to do: replicas have not changed since last sync.
+Looking for changes
+  Waiting for changes from server
+Reconciling changes
+Nothing to do: replicas have not changed since last sync.
+Looking for changes
+  Waiting for changes from server
+Reconciling changes
+Propagating updates
+UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 16:05:40.99 on 02 May 2018
+[BGN] Copying web/typo3temp/Cache/Code/cache_core/PackageObjects_5ae9c5daaba02837190873.php from //50abb2cd1093//app_sync to /Users/carlos/Projekte/matthies/kundenwebseitenauto/TYPO3-docker-boilerplate/app
+[END] Copying web/typo3temp/Cache/Code/cache_core/PackageObjects_5ae9c5daaba02837190873.php
+UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 16:05:40.99 on 02 May 2018
+Saving synchronizer state
+Synchronization complete at 16:05:41  (1 item transferred, 0 skipped, 0 failed)
+Looking for changes
+  Waiting for changes from server
+Reconciling changes
+Propagating updates
+UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 16:05:42.06 on 02 May 2018
+[BGN] Copying web/typo3temp/Cache/Code/cache_core/PackageManager_b936baef17ff3ac06939e6aeac259c3e.php from //50abb2cd1093//app_sync to /Users/carlos/Projekte/matthies/kundenwebseitenauto/TYPO3-docker-boilerplate/app
+[BGN] Copying web/typo3temp/Cache/Code/fluid_template/FrontendLayout_Standard_action_index_1bf4c5c813a836433a24439551e4c47526fcdc84.php from //50abb2cd1093//app_sync to /Users/carlos/Projekte/matthies/kundenwebseitenauto/TYPO3-docker-boilerplate/app
+[BGN] Copying web/typo3temp/Cache/Code/fluid_template/FrontendLayout_Standard_action_index_e8ca9e7ac7c6623e083fc402aa3be5119f833b22.php from //50abb2cd1093//app_sync to /Users/carlos/Projekte/matthies/kundenwebseitenauto/TYPO3-docker-boilerplate/app
+[END] Copying web/typo3temp/Cache/Code/cache_core/PackageManager_b936baef17ff3ac06939e6aeac259c3e.php
+[END] Copying web/typo3temp/Cache/Code/fluid_template/FrontendLayout_Standard_action_index_1bf4c5c813a836433a24439551e4c47526fcdc84.php
+[END] Copying web/typo3temp/Cache/Code/fluid_template/FrontendLayout_Standard_action_index_e8ca9e7ac7c6623e083fc402aa3be5119f833b22.php
+UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 16:05:42.07 on 02 May 2018
+Saving synchronizer state
+Synchronization complete at 16:05:42  (3 items transferred, 0 skipped, 0 failed)
+Looking for changes
+  Waiting for changes from server
+Reconciling changes
+Nothing to do: replicas have not changed since last sync.
+Looking for changes
+  Waiting for changes from server
+Reconciling changes
+Propagating updates
+UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 16:05:52.41 on 02 May 2018
+[BGN] Copying web/typo3temp/Cache/Code/fluid_template/Standalone_template_file_Main_02319deb8901425c7b7b6ac75d66cfcca2df07f0.php from //50abb2cd1093//app_sync to /Users/carlos/Projekte/matthies/kundenwebseitenauto/TYPO3-docker-boilerplate/app
+[END] Copying web/typo3temp/Cache/Code/fluid_template/Standalone_template_file_Main_02319deb8901425c7b7b6ac75d66cfcca2df07f0.php
+UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 16:05:52.41 on 02 May 2018
+Saving synchronizer state
+Synchronization complete at 16:05:52  (1 item transferred, 0 skipped, 0 failed)
+Looking for changes
+  Waiting for changes from server
+Reconciling changes
+Propagating updates
+UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 16:05:53.46 on 02 May 2018
+[BGN] Copying web/typo3temp/Cache/Code/fluid_template/Standalone_template_file_Main_5235abfe33097f0fe40320c70bcd029b25e22cce.php from //50abb2cd1093//app_sync to /Users/carlos/Projekte/matthies/kundenwebseitenauto/TYPO3-docker-boilerplate/app
+[BGN] Copying web/typo3temp/Cache/Code/fluid_template/Standalone_template_file_SystemInformation_4fe581244ddb351473926ef755f226785447569a.php from //50abb2cd1093//app_sync to /Users/carlos/Projekte/matthies/kundenwebseitenauto/TYPO3-docker-boilerplate/app
+[END] Copying web/typo3temp/Cache/Code/fluid_template/Standalone_template_file_Main_5235abfe33097f0fe40320c70bcd029b25e22cce.php
+[END] Copying web/typo3temp/Cache/Code/fluid_template/Standalone_template_file_SystemInformation_4fe581244ddb351473926ef755f226785447569a.php
+UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 16:05:53.46 on 02 May 2018
+Saving synchronizer state
+Synchronization complete at 16:05:53  (2 items transferred, 0 skipped, 0 failed)
+Looking for changes
+  Waiting for changes from server
+Reconciling changes
+Propagating updates
+UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 16:05:54.53 on 02 May 2018
+[BGN] Copying web/typo3temp/compressor/Typo3Lang-717975f273b6863b439631915c1e9d20.js from //50abb2cd1093//app_sync to /Users/carlos/Projekte/matthies/kundenwebseitenauto/TYPO3-docker-boilerplate/app
+[BGN] Copying web/typo3temp/compressor/ext-all-42e9ca126cc08c07856e146440e87ba9.js from //50abb2cd1093//app_sync to /Users/carlos/Projekte/matthies/kundenwebseitenauto/TYPO3-docker-boilerplate/app
+[BGN] Copying web/typo3temp/compressor/ext-all-notheme-070a53b4351dbb062caefd573d862652.css from //50abb2cd1093//app_sync to /Users/carlos/Projekte/matthies/kundenwebseitenauto/TYPO3-docker-boilerplate/app
+[BGN] Copying web/typo3temp/compressor/ext-base-9d0093a320952eb7b7cf6c063ca27452.js from //50abb2cd1093//app_sync to /Users/carlos/Projekte/matthies/kundenwebseitenauto/TYPO3-docker-boilerplate/app
+[BGN] Copying web/typo3temp/compressor/ext-lang-en-a992f0c48036b9d809b7a223a97531a4.js from //50abb2cd1093//app_sync to /Users/carlos/Projekte/matthies/kundenwebseitenauto/TYPO3-docker-boilerplate/app
+[BGN] Copying web/typo3temp/compressor/merged-094e11df7c3400e25ebc88dd10e7f4a7-553c782772c05fa47873bf0d85794386.js from //50abb2cd1093//app_sync to /Users/carlos/Projekte/matthies/kundenwebseitenauto/TYPO3-docker-boilerplate/app
+[BGN] Copying web/typo3temp/compressor/merged-094e11df7c3400e25ebc88dd10e7f4a7.js from //50abb2cd1093//app_sync to /Users/carlos/Projekte/matthies/kundenwebseitenauto/TYPO3-docker-boilerplate/app
+[BGN] Copying web/typo3temp/compressor/merged-315118c04c2ae7a997ff686c12c56107-30c285912d778d587920172861aad730.css from //50abb2cd1093//app_sync to /Users/carlos/Projekte/matthies/kundenwebseitenauto/TYPO3-docker-boilerplate/app
+[BGN] Copying web/typo3temp/compressor/merged-315118c04c2ae7a997ff686c12c56107.css from //50abb2cd1093//app_sync to /Users/carlos/Projekte/matthies/kundenwebseitenauto/TYPO3-docker-boilerplate/app
+[BGN] Copying web/typo3temp/compressor/require-7fc40de90839a5b8a93246e40ac7e54f.js from //50abb2cd1093//app_sync to /Users/carlos/Projekte/matthies/kundenwebseitenauto/TYPO3-docker-boilerplate/app
+[BGN] Copying web/typo3temp/compressor/xtheme-t3skin-7a0b03354f5f8d9c461e88ef7cba53f1.css from //50abb2cd1093//app_sync to /Users/carlos/Projekte/matthies/kundenwebseitenauto/TYPO3-docker-boilerplate/app
+Shortcut: copied /Users/carlos/Projekte/matthies/kundenwebseitenauto/TYPO3-docker-boilerplate/app/web/typo3temp/compressor/Typo3Lang-717975f273b6863b439631915c1e9d20.js from local file /Users/carlos/Projekte/matthies/kundenwebseitenauto/TYPO3-docker-boilerplate/app/web/typo3temp/compressor/Typo3Lang-3a22bd91723ff0e8d910ef6e8db7f882.js
+Shortcut: copied /Users/carlos/Projekte/matthies/kundenwebseitenauto/TYPO3-docker-boilerplate/app/web/typo3temp/compressor/ext-all-42e9ca126cc08c07856e146440e87ba9.js from local file /Users/carlos/Projekte/matthies/kundenwebseitenauto/TYPO3-docker-boilerplate/app/web/typo3temp/compressor/ext-all-d756d184850935889df6c176cb6b88c6.js
+Shortcut: copied /Users/carlos/Projekte/matthies/kundenwebseitenauto/TYPO3-docker-boilerplate/app/web/typo3temp/compressor/ext-all-notheme-070a53b4351dbb062caefd573d862652.css from local file /Users/carlos/Projekte/matthies/kundenwebseitenauto/TYPO3-docker-boilerplate/app/web/typo3temp/compressor/ext-all-notheme-d098b8f330f1e533260b02e0faa76f50.css
+Shortcut: copied /Users/carlos/Projekte/matthies/kundenwebseitenauto/TYPO3-docker-boilerplate/app/web/typo3temp/compressor/ext-base-9d0093a320952eb7b7cf6c063ca27452.js from local file /Users/carlos/Projekte/matthies/kundenwebseitenauto/TYPO3-docker-boilerplate/app/web/typo3temp/compressor/ext-base-fc3afa6011a014baa8edd9b8b83abf5d.js
+Shortcut: copied /Users/carlos/Projekte/matthies/kundenwebseitenauto/TYPO3-docker-boilerplate/app/web/typo3temp/compressor/ext-lang-en-a992f0c48036b9d809b7a223a97531a4.js from local file /Users/carlos/Projekte/matthies/kundenwebseitenauto/TYPO3-docker-boilerplate/app/web/typo3temp/compressor/ext-lang-en-92973d7c936e67e378ba478fed38e01d.js
+Shortcut: copied /Users/carlos/Projekte/matthies/kundenwebseitenauto/TYPO3-docker-boilerplate/app/web/typo3temp/compressor/merged-094e11df7c3400e25ebc88dd10e7f4a7-553c782772c05fa47873bf0d85794386.js from local file /Users/carlos/Projekte/matthies/kundenwebseitenauto/TYPO3-docker-boilerplate/app/web/typo3temp/compressor/merged-eab74697446b1df5584eab4ed7b9b7ce.js
+Shortcut: copied /Users/carlos/Projekte/matthies/kundenwebseitenauto/TYPO3-docker-boilerplate/app/web/typo3temp/compressor/merged-094e11df7c3400e25ebc88dd10e7f4a7.js from local file /Users/carlos/Projekte/matthies/kundenwebseitenauto/TYPO3-docker-boilerplate/app/web/typo3temp/compressor/.unison.merged-094e11df7c3400e25ebc88dd10e7f4a7-553c782772c05fa47873bf0d85794386.js.441baf9446f7fa89081552d4f2ea3d5b.unison.tmp
+Shortcut: copied /Users/carlos/Projekte/matthies/kundenwebseitenauto/TYPO3-docker-boilerplate/app/web/typo3temp/compressor/merged-315118c04c2ae7a997ff686c12c56107-30c285912d778d587920172861aad730.css from local file /Users/carlos/Projekte/matthies/kundenwebseitenauto/TYPO3-docker-boilerplate/app/web/typo3temp/compressor/merged-fb135ef8e13a642781a23aef2d7fa589-14b87fb0b03b09e426171e2e7be6e729.css
+Shortcut: copied /Users/carlos/Projekte/matthies/kundenwebseitenauto/TYPO3-docker-boilerplate/app/web/typo3temp/compressor/merged-315118c04c2ae7a997ff686c12c56107.css from local file /Users/carlos/Projekte/matthies/kundenwebseitenauto/TYPO3-docker-boilerplate/app/web/typo3temp/compressor/merged-fb135ef8e13a642781a23aef2d7fa589.css
+Shortcut: copied /Users/carlos/Projekte/matthies/kundenwebseitenauto/TYPO3-docker-boilerplate/app/web/typo3temp/compressor/require-7fc40de90839a5b8a93246e40ac7e54f.js from local file /Users/carlos/Projekte/matthies/kundenwebseitenauto/TYPO3-docker-boilerplate/app/web/typo3temp/compressor/require-d26bea8765dbfcf6a2d5d192f625f796.js
+Shortcut: copied /Users/carlos/Projekte/matthies/kundenwebseitenauto/TYPO3-docker-boilerplate/app/web/typo3temp/compressor/xtheme-t3skin-7a0b03354f5f8d9c461e88ef7cba53f1.css from local file /Users/carlos/Projekte/matthies/kundenwebseitenauto/TYPO3-docker-boilerplate/app/web/typo3temp/compressor/xtheme-t3skin-9c70e3704ec909f70ea50df21e87b6b6.css
+[END] Copying web/typo3temp/compressor/Typo3Lang-717975f273b6863b439631915c1e9d20.js
+[END] Copying web/typo3temp/compressor/ext-all-42e9ca126cc08c07856e146440e87ba9.js
+[END] Copying web/typo3temp/compressor/ext-all-notheme-070a53b4351dbb062caefd573d862652.css
+[END] Copying web/typo3temp/compressor/ext-base-9d0093a320952eb7b7cf6c063ca27452.js
+[END] Copying web/typo3temp/compressor/ext-lang-en-a992f0c48036b9d809b7a223a97531a4.js
+[END] Copying web/typo3temp/compressor/merged-094e11df7c3400e25ebc88dd10e7f4a7-553c782772c05fa47873bf0d85794386.js
+[END] Copying web/typo3temp/compressor/merged-094e11df7c3400e25ebc88dd10e7f4a7.js
+[END] Copying web/typo3temp/compressor/merged-315118c04c2ae7a997ff686c12c56107-30c285912d778d587920172861aad730.css
+[END] Copying web/typo3temp/compressor/merged-315118c04c2ae7a997ff686c12c56107.css
+[END] Copying web/typo3temp/compressor/require-7fc40de90839a5b8a93246e40ac7e54f.js
+[END] Copying web/typo3temp/compressor/xtheme-t3skin-7a0b03354f5f8d9c461e88ef7cba53f1.css
+UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 16:05:54.56 on 02 May 2018
+Saving synchronizer state
+Synchronization complete at 16:05:54  (11 items transferred, 0 skipped, 0 failed)
+Looking for changes
+  Waiting for changes from server
+Reconciling changes
+Nothing to do: replicas have not changed since last sync.
+Looking for changes
+  Waiting for changes from server
+Reconciling changes
+Nothing to do: replicas have not changed since last sync.
+Fatal error: Lost connection with the server

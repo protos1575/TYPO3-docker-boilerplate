@@ -21,7 +21,8 @@ services:
       - "8443:443"
       - "10022:22"
     volumes:
-      - ./app/:/app:cached
+      #- ./app/:/app:cached
+      - appcode-rsync-sync:/app:nocopy
       - ./:/docker/
     # cap and privileged needed for slowlog
     cap_add:
@@ -188,3 +189,5 @@ volumes:
   elasticsearch:
   redis:
   phpmyadmin:
+  appcode-rsync-sync:
+    external: true
